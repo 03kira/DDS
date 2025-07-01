@@ -1,0 +1,2804 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link
+      rel="pingback"
+      href="#/home-guard/xmlrpc.php"
+    />
+    <!--[if lt IE 9]>
+      <script
+        type="text/javascript"
+        src="#/home-guard/wp-content/themes/home-guard-pro/js/html5.js"
+      ></script>
+      <link
+        rel="stylesheet"
+        href="#/home-guard/wp-content/themes/home-guard-pro/css/ie.css"
+        type="text/css"
+        media="all"
+      />
+    <![endif]-->
+    <title>DDS - A Multiservice Website</title>
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Home Guard » Feed"
+      href="#/home-guard/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Home Guard » Comments Feed"
+      href="#/home-guard/comments/feed/"
+    />
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/gracethemesdemo.com\/home-guard\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.4",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+      /* ]]> */
+    </script>
+    <style id="wp-emoji-styles-inline-css" type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="css/style.min.css"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-block-library-theme-inline-css" type="text/css">
+      .wp-block-audio figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-audio figcaption {
+        color: #ffffffa6;
+      }
+      .wp-block-audio {
+        margin: 0 0 1em;
+      }
+      .wp-block-code {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: Menlo, Consolas, monaco, monospace;
+        padding: 0.8em 1em;
+      }
+      .wp-block-embed figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-embed figcaption {
+        color: #ffffffa6;
+      }
+      .wp-block-embed {
+        margin: 0 0 1em;
+      }
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .blocks-gallery-caption {
+        color: #ffffffa6;
+      }
+      .wp-block-image figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-image figcaption {
+        color: #ffffffa6;
+      }
+      .wp-block-image {
+        margin: 0 0 1em;
+      }
+      .wp-block-pullquote {
+        border-bottom: 4px solid;
+        border-top: 4px solid;
+        color: currentColor;
+        margin-bottom: 1.75em;
+      }
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer,
+      .wp-block-pullquote__citation {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        text-transform: uppercase;
+      }
+      .wp-block-quote {
+        border-left: 0.25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em;
+      }
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: 0.8125em;
+        font-style: normal;
+        position: relative;
+      }
+      .wp-block-quote.has-text-align-right {
+        border-left: none;
+        border-right: 0.25em solid;
+        padding-left: 0;
+        padding-right: 1em;
+      }
+      .wp-block-quote.has-text-align-center {
+        border: none;
+        padding-left: 0;
+      }
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote.is-style-plain {
+        border: none;
+      }
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: 0.375em 0.625em;
+      }
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em;
+      }
+      .wp-block-separator.has-css-opacity {
+        opacity: 0.4;
+      }
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .wp-block-separator.has-alpha-channel-opacity {
+        opacity: 1;
+      }
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px;
+      }
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px;
+      }
+      .wp-block-separator.has-background:not(.is-style-wide):not(
+          .is-style-dots
+        ) {
+        height: 2px;
+      }
+      .wp-block-table {
+        margin: 0 0 1em;
+      }
+      .wp-block-table td,
+      .wp-block-table th {
+        word-break: normal;
+      }
+      .wp-block-table figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-table figcaption {
+        color: #ffffffa6;
+      }
+      .wp-block-video figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-video figcaption {
+        color: #ffffffa6;
+      }
+      .wp-block-video {
+        margin: 0 0 1em;
+      }
+      .wp-block-template-part.has-background {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      body .is-layout-grid > * {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="foobox-free-min-css"
+      href="css/foobox.free.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="css/styles.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-assistant-css"
+      href="//fonts.googleapis.com/css2?family=Assistant%3Awght%40200%3B300%3B400%3B500%3B600%3B700%3B800&amp;display=swap&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-roboto-css"
+      href="//fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C100%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C700%3B0%2C900%3B1%2C100%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C700%3B1%2C900&amp;display=swap&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-opensans-css"
+      href="//fonts.googleapis.com/css2?family=Open+Sans%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C600%3B0%2C700%3B0%2C800%3B1%2C300%3B1%2C400%3B1%2C600%3B1%2C700%3B1%2C800&amp;display=swap&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-playfair-css"
+      href="//fonts.googleapis.com/css2?family=Playfair+Display%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-poppins-css"
+      href="//fonts.googleapis.com/css2?family=Poppins%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-BigShoulders-css"
+      href="//fonts.googleapis.com/css2?family=Poppins%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-body-css"
+      href="//fonts.googleapis.com/css?family=Poppins&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-logo-css"
+      href="//fonts.googleapis.com/css?family=Poppins&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-nav-css"
+      href="//fonts.googleapis.com/css?family=Poppins&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-gfonts-heading-css"
+      href="//fonts.googleapis.com/css?family=Poppins&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="economicspro-gfonts-sectiontitle-css"
+      href="//fonts.googleapis.com/css?family=Noto+Sans+Display+SemiCondensed&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="economicspro-gfonts-slidetitle-css"
+      href="//fonts.googleapis.com/css?family=Noto+Sans+Display+SemiCondensed&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="economicspro-gfonts-slidedes-css"
+      href="//fonts.googleapis.com/css?family=Poppins&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=6.5.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-basic-style-css"
+      href="css/style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-editor-style-css"
+      href="css/editor-style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-base-style-css"
+      href="css/default.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-nivo-style-css"
+      href="./css/nivo-slider.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-fontawesome-all-style-css"
+      href="css/fontawesome-all.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-animation-css"
+      href="css/animation.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-hover-css"
+      href="css/hover.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-hover-min-css"
+      href="css/hover-min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-testimonialslider-style-css"
+      href="css/tm-rotator.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-responsive-style-css"
+      href="css/responsive.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-owl-style-css"
+      href="css/owl.carousel.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-flexiselcss-css"
+      href="css/flexiselcss.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-youtube-popup-css"
+      href="css/grt-youtube-popup.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="home-guard-pro-animation-style-css"
+      href="css/animation-style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="dashicons-css"
+      href="css/dashicons.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="gra_circle_styles-css"
+      href="css/jquery.easy-pie-chart.css"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="js/jquery.min.js"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/jquery-migrate.min.js"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.nivo.slider.js"
+      id="home-guard-pro-nivo-slider-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/custom_1.js"
+      id="home-guard-pro-customscripts-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.quovolver.min.js"
+      id="home-guard-pro-testimonialsminjs-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/owl.carousel.js"
+      id="home-guard-pro-owljs-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.counterup.min.js"
+      id="home-guard-pro-counterup-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/waypoints.min.js"
+      id="home-guard-pro-waypoints-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="#/home-guard/wp-content/themes/home-guard-pro/mixitup/jquery.prettyPhoto5152.js?ver=6.5.4"
+      id="home-guard-pro-prettyphoto-script-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.flexisel.js"
+      id="home-guard-pro-flexisel-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/grt-youtube-popup.js"
+      id="home-guard-pro-youtube-popup-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/custom-animation.js"
+      id="home-guard-pro-custom-animation-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.easy-pie-chart.js"
+      id="gra_circle_script-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/custom.js"
+      id="gra_circle_custom_script-js"
+    ></script>
+    <script type="text/javascript" id="foobox-free-min-js-before">
+      /* <![CDATA[ */
+      /* Run FooBox FREE (v2.7.27) */
+      var FOOBOX = (window.FOOBOX = {
+        ready: true,
+        disableOthers: false,
+        o: {
+          wordpress: { enabled: true },
+          countMessage: "image %index of %total",
+          captions: {
+            dataTitle: ["captionTitle", "title"],
+            dataDesc: ["captionDesc", "description"],
+          },
+          excludes:
+            '.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]',
+          affiliate: { enabled: false },
+        },
+        selectors: [
+          ".foogallery-container.foogallery-lightbox-foobox",
+          ".foogallery-container.foogallery-lightbox-foobox-free",
+          ".gallery",
+          ".wp-block-gallery",
+          ".wp-caption",
+          ".wp-block-image",
+          "a:has(img[class*=wp-image-])",
+          ".post a:has(img[class*=wp-image-])",
+          ".foobox",
+        ],
+        pre: function ($) {
+          // Custom JavaScript (Pre)
+        },
+        post: function ($) {
+          // Custom JavaScript (Post)
+          // Custom Captions Code
+        },
+        custom: function ($) {
+          // Custom Extra JS
+        },
+      });
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="js/foobox.free.min.js"
+      id="foobox-free-min-js"
+    ></script>
+    <link
+      rel="https://api.w.org/"
+      href="#/home-guard/wp-json/"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="#/home-guard/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.5.4" />
+
+    <script>
+      jQuery(window).bind("scroll", function () {
+        var wwd = jQuery(window).width();
+        if (wwd > 939) {
+          var navHeight = jQuery(window).height() - 575;
+        }
+      });
+
+      jQuery(window).load(function () {
+        jQuery("#clienttestiminials .owl-carousel").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 8000,
+          margin: 0,
+          nav: false,
+          autoHeight: false,
+          navText: [
+            "<i class='fas fa-angle-left'></i>",
+            "<i class='fas fa-angle-right'></i>",
+          ],
+          dots: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            768: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      });
+
+      jQuery(document).ready(function () {
+        jQuery(".link").on("click", function (event) {
+          var $this = jQuery(this);
+          if ($this.hasClass("clicked")) {
+            $this.removeAttr("style").removeClass("clicked");
+          } else {
+            $this.css("background", "#7fc242").addClass("clicked");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      jQuery(window).load(function () {
+        jQuery("#slider").nivoSlider({
+          effect: "random", //sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft, fold, fade, random, slideInRight, slideInLeft, boxRandom, boxRain, boxRainReverse, boxRainGrow, boxRainGrowReverse
+          animSpeed: 500,
+          pauseTime: 4000,
+          directionNav: true,
+          controlNav: false,
+          pauseOnHover: false,
+        });
+      });
+    </script>
+
+    <style>
+      body,
+      .contact-form-section .address,
+      .accordion-box .acc-content,
+      .woocommerce table.shop_table th,
+      .woocommerce-page table.shop_table th {
+        color: #494848;
+      }
+      body,
+      textarea,
+      input {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+      .logo h1 {
+        font-family: Poppins;
+        color: #353535;
+        font-size: 35px;
+      }
+      .tagline {
+        color: #494848;
+      }
+      .logo img {
+        height: 67px;
+      }
+      .header {
+        background-color: #ffffff;
+      }
+      .nivo-caption h2 span {
+        background-color: #ffffff;
+      }
+      @media screen and (max-width: 1023px) {
+        .toggled .menu li {
+          background: #292929;
+        }
+      }
+      @media screen and (max-width: 1023px) {
+        .site-navigation ul li a {
+          color: #ffffff !important;
+        }
+      }
+      @media screen and (max-width: 1023px) {
+        .site-navigation ul li a:hover,
+        .site-navigation ul > li.current_page_item > a {
+          color: #57b857 !important;
+        }
+      }
+      .infobox,
+      .infobox a {
+        color: #ffffff;
+      }
+      .site-navigation ul {
+        font-family: "Poppins", sans-serif;
+        font-size: 17px;
+      }
+      .site-navigation ul li a {
+        color: #333333;
+      }
+      h2.section_title,
+      .sec_content_main_title {
+        font-family: Noto Sans Display SemiCondensed;
+        font-size: 53px;
+        color: #141414;
+      }
+      h4.sectionsubtitle,
+      .sec_content_sub_title,
+      span.sub-title-head {
+        font-size: 20px;
+        font-family: Poppins;
+      }
+      .about_contentcolumn h3 span {
+        font-family: Noto Sans Display SemiCondensed;
+      }
+      #pagearea {
+        background-color: #f9f9f9;
+      }
+      #aboutussection {
+        background: #ffffff;
+      }
+      a:hover,
+      .slide_toggle a:hover {
+        color: #272727;
+      }
+      .footer h5 {
+        font-size: 24px;
+        font-family: Poppins;
+        color: #ffffff;
+      }
+      .copyright-txt {
+        color: #292929;
+      }
+      .design-by {
+        color: #292929;
+      }
+      .button,
+      #commentform input#submit,
+      input.search-submit,
+      .post-password-form input[type="submit"],
+      p.read-more a,
+      .pagination ul li span,
+      .pagination ul li a,
+      .headertop .right a,
+      .wpcf7 form input[type="submit"],
+      #sidebar .search-form input.search-submit {
+        color: #ffffff;
+      }
+      .button:hover,
+      #commentform input#submit:hover,
+      input.search-submit:hover,
+      .post-password-form input[type="submit"]:hover,
+      p.read-more a:hover,
+      .pagination ul li .current,
+      .pagination ul li a:hover,
+      .headertop .right a:hover,
+      .wpcf7 form input[type="submit"]:hover {
+        color: #ffffff;
+      }
+      a.morebutton {
+        color: #ffffff !important;
+      }
+      a.morebutton:hover {
+        color: #ffffff;
+      }
+      a.buttonstyle1 {
+        background-color: #202020;
+        color: #ffffff;
+      }
+      a.buttonstyle1:hover {
+        color: #ffffff;
+      }
+      #sidebar .search-form input.search-field {
+        background-color: #f0efef;
+        color: #6e6d6d;
+      }
+      h3.widget-title {
+        color: #282828;
+        font-size: 24px;
+      }
+      #footer-wrapper {
+        background-color: #353c56;
+        color: #ffffff;
+      }
+      .footer ul li a {
+        color: #ffffff;
+      }
+      .contactdetail a {
+        color: #ffffff;
+      }
+      .BottomContactBX {
+        background-color: #1c2132;
+      }
+      .nivo-controlNav a {
+        background-color: #ffffff;
+      }
+      #sidebar ul li {
+        border-color: #eeeeee;
+      }
+      #sidebar ul li a,
+      #sidebar ol li a {
+        color: #78797c;
+      }
+      #sidebar ul li:before {
+        color: #78797c !important;
+      }
+      .nivo-caption h2 {
+        font-family: Noto Sans Display SemiCondensed;
+        color: #ffffff;
+        font-size: 59px;
+      }
+      .nivo-caption p {
+        font-family: Poppins;
+        color: #ffffff;
+        font-size: 17px;
+      }
+      .copyright-wrapper a {
+        color: #555555;
+      }
+      .copyright-wrapper {
+        background: #f7f7f7;
+      }
+      .menu-toggle {
+        color: #ffffff;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Poppins;
+      }
+      h1 {
+        font-size: 30px;
+        color: #282828;
+      }
+      h2 {
+        font-size: 30px;
+        color: #282828;
+      }
+      h3 {
+        font-size: 28px;
+        color: #282828;
+      }
+      h4 {
+        font-size: 24px;
+        color: #282828;
+      }
+      h5 {
+        font-size: 20px;
+        color: #282828;
+      }
+      h6 {
+        font-size: 18px;
+        color: #282828;
+      }
+      .infobox .social-icons a {
+        color: #ffffff;
+      }
+      .nivo-directionNav a {
+        background-color: rgba(87, 184, 87, 0);
+      }
+      .owl-controls .owl-dot {
+        background-color: #ffffff;
+      }
+      .process-circle {
+        box-shadow: 0 0px 0 15px rgba(87, 184, 87, 0.5);
+      }
+      a.morebutton,
+      #commentform input#submit,
+      input.search-submit,
+      .videobox .playbtn,
+      #section1 .sub-title-head,
+      #clienttestiminials,
+      .wrap-col,
+      .nivo-caption .button:hover,
+      .member-social-icon,
+      a.roundedbutton,
+      .video-2column .videocover,
+      .video-2column .playbtn,
+      .hdr-topstrip,
+      .owl-controls .owl-prev i:hover,
+      .owl-controls .owl-next i:hover,
+      .column3-hg.highlight,
+      .column3-hg:hover a.morehg:after,
+      .aboutphonebx,
+      .sixcirclecolumn:hover .thumbbx,
+      .hdr-topstrip .infobox a.morebutton:hover,
+      .post-password-form input[type="submit"],
+      .about_right_imgbox a.morebutton,
+      p.read-more a,
+      .pagination ul li span,
+      .pagination ul li a,
+      .headertop .right a,
+      .wpcf7 form input[type="submit"],
+      #sidebar .search-form input.search-submit,
+      input.search-submit:hover,
+      .post-password-form input[type="submit"]:hover,
+      .pagination ul li .current,
+      .pagination ul li a:hover,
+      .headertop .right a:hover,
+      .toggle a,
+      a.buttonstyle1:hover,
+      .toggled .menu-toggle,
+      .project-thumb,
+      .news-box .news-thumb,
+      .news-box .poststyle,
+      .woocommerce #respond input#submit.alt:hover,
+      input.search-submit:hover,
+      .post-password-form input[type="submit"]:hover,
+      .woocommerce a.button.alt:hover,
+      .woocommerce button.button.alt:hover,
+      .woocommerce input.button.alt:hover,
+      .toggled .menu .toggled-on > .sub-menu,
+      .menu-toggle,
+      .woocommerce ul.products li .product_type_simple,
+      .woocommerce ul.products li .product_type_external,
+      .woocommerce ul.products li .product_type_grouped,
+      a.added_to_cart,
+      .woocommerce #respond input#submit.alt,
+      .woocommerce a.button.alt,
+      .woocommerce button.button.alt,
+      .woocommerce input.button.alt,
+      .woocommerce ul.products li.product .button,
+      .woocommerce ul.products li .product_type_simple:hover,
+      .woocommerce ul.products li .product_type_external:hover,
+      .woocommerce ul.products li .product_type_grouped:hover,
+      .woocommerce span.onsale {
+        background-color: #57b857;
+      }
+      .woocommerce ul.products li.product:hover {
+        background-color: rgba(87, 184, 87, 0.8);
+      }
+      .site-navigation .menu ul a:hover,
+      .site-navigation .menu a:hover,
+      .site-navigation .menu ul a:focus,
+      .site-navigation ul > li.current_page_item > a,
+      .site-navigation ul > li.current-menu-ancestor > a,
+      .site-navigation ul li.current_page_item ul.sub-menu li a:hover,
+      .site-navigation ul li.current-menu-parent ul.sub-menu li a:hover,
+      .site-navigation
+        ul
+        li.current-menu-parent
+        ul.sub-menu
+        li
+        ul.sub-menu
+        li
+        a:hover,
+      .site-navigation
+        ul
+        li.current-menu-parent
+        ul.sub-menu
+        li.current_page_item
+        a,
+      .site-navigation ul ul li a:hover,
+      .site-navigation ul li ul li.current-page-parent > a,
+      .site-navigation ul li ul li.current_page_item > a,
+      .button,
+      .tabs-wrapper ul.tabs li a.selected,
+      .accordion-box h2.active,
+      a,
+      .teammember-list:hover h5 a,
+      .leftcolumn-ss-50 .subtitle span,
+      .cntbutton,
+      .ClientsProject:hover h5,
+      #section6 .subtitle span,
+      #sidebar ul li a:hover,
+      #sidebar ol li a:hover,
+      .contactdetail a:hover,
+      div.recent-post a:hover,
+      #sidebar ul li::before,
+      .about_contentcolumn h3 span,
+      .slide_toggle a,
+      #back-top i,
+      .footer ul li a:hover,
+      .footer ul li.current_page_item a,
+      ul.recent-post li .footerdate,
+      #sidebar ul li a:hover,
+      .teammember-content span,
+      .post-title a:hover,
+      .footer .social-icons a:hover,
+      .bloggridlayout h3.post-title a:hover,
+      .header-top .left span,
+      .woocommerce div.product p.price,
+      .woocommerce div.product span.price,
+      .sub-title-head,
+      #aboutussection ul li::before,
+      .copyright-wrapper a:hover,
+      .sec_content_main_title .sub-title-head,
+      .about_contentcolumn .sub-title-head {
+        color: #57b857;
+      }
+      .process-circle,
+      #back-top a,
+      .footer h5:after,
+      .logo::after,
+      ul.clientlogos li:hover:after,
+      .owl-controls .owl-prev i:hover,
+      .owl-controls .owl-next i:hover {
+        border-color: #57b857;
+      }
+      .sixcirclecolumn:hover .thumbbx:before {
+        border-top-color: #57b857;
+      }
+      .column3-hg:hover {
+        background-color: #57b857 !important;
+      }
+    </style>
+    <style type="text/css">
+      .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    </style>
+    <style type="text/css"></style>
+    <script src="js/wp-emoji-release.min.js" defer=""></script>
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="./js/scripts.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+
+  <body id="top" class="home blog wp-embed-responsive">
+    <div class="sitewrapper">
+      <div class="header">
+        <div class="hdr-topstrip">
+          <div class="container">
+            <div class="hdrinfofixer">
+              <div class="infobox">
+                <i class="far fa-envelope"></i> info@sitename.com
+              </div>
+              <div class="infobox">
+                <i class="fas fa-phone fa-rotate-90"></i> 202-555-0115
+              </div>
+
+              <div class="infobox last">
+                <div class="social-icons">
+                  <a href="#" target="_blank" class="fab fa-facebook-f"></a>
+                  <a href="#" target="_blank" class="fab fa-twitter"></a>
+                  <a href="#" target="_blank" class="fab fa-linkedin-in"></a>
+                  <a href="#" target="_blank" class="fab fa-instagram"></a>
+                  <a href="#" target="_blank" class="fab fa-youtube"></a>
+                </div>
+              </div>
+
+              <div class="clear"></div>
+            </div>
+            <!-- .hdrinfofixer-->
+          </div>
+          <!-- .container-->
+        </div>
+        <!-- .hdr-topstrip-->
+
+        <div class="logo-and-menu">
+          <div class="container">
+            <div class="logo">
+              <a href="#"
+                ><img src="images/logo_new.png" alt="DDS_Logo_Here"
+              /></a>
+            </div>
+            <!-- .logo -->
+
+            <div class="mainmenu-right-area">
+              <div class="mainmenu">
+                <div id="topnavigator" role="banner">
+                  <button
+                    class="menu-toggle"
+                    aria-controls="main-navigation"
+                    aria-expanded="false"
+                    type="button"
+                  >
+                    <span aria-hidden="true"> Menu </span>
+                    <span class="dashicons" aria-hidden="true"></span>
+                  </button>
+                  <nav
+                    id="main-navigation"
+                    class="site-navigation primary-navigation"
+                    role="navigation"
+                  >
+                    <ul id="primary" class="primary-menu menu">
+                      <li
+                        id="menu-item-1710"
+                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1710"
+                      >
+                        <a
+                          title="												"
+                          href="/#/home-guard/"
+                          aria-current="page"
+                          >Home</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1732"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"
+                      >
+                        <a
+                          title="												"
+                          href="#/home-guard/about-us/"
+                          >Service</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1732"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"
+                      >
+                        <a
+                          title="												"
+                          href="#/home-guard/about-us/"
+                          >Products</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1732"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"
+                      >
+                        <a
+                          title="												"
+                          href="#/home-guard/about-us/"
+                          >About Us</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1731"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1731"
+                      >
+                        <a
+                          title="												"
+                          href="#/home-guard/contact/"
+                          >Contact Us</a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                  <!-- #site-navigation -->
+                </div>
+                <!-- #topnavigator -->
+              </div>
+              <!-- .mainmenu-->
+            </div>
+            <!-- mainmenu-right-area -->
+            <div class="clear"></div>
+          </div>
+          <!-- .container-->
+        </div>
+        <!--logo-and-menu-->
+      </div>
+      <!-- .header -->
+
+      <div class="slider-main">
+        <div id="slider" class="nivoSlider">
+          <img src="images/slider1.jpg" alt="" title="#slidecaption1" />
+          <img src="images/slider2.jpg" alt="" title="#slidecaption2" />
+          <img src="images/slider3.jpg" alt="" title="#slidecaption3" />
+        </div>
+        <div id="slidecaption1" class="nivo-html-caption">
+          <h2><span>Home Security</span> Highest Level of Protection</h2>
+          <p>
+            Posuere tellus imperdiet facilisi. Curabitur vive faucibusy tellus,
+            eu sem nunc finibus placer Suspendise.
+          </p>
+          <a class="button" href="#"> Contact US </a>
+        </div>
+        <div id="slidecaption2" class="nivo-html-caption">
+          <h2><span>Surveillance Cameras</span> CCTV For Your Security</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry Curabitur vive faucibusy tellus
+          </p>
+          <a class="button" href="#"> Contact US </a>
+        </div>
+        <div id="slidecaption3" class="nivo-html-caption">
+          <h2><span>Security Service</span> For Your Personal Safety</h2>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur
+          </p>
+          <a class="button" href="#"> Contact US </a>
+        </div>
+      </div>
+      <!-- slider -->
+
+      <div class="container">
+        <div class="best-3-features">
+          <div class="column3-hg">
+            <div class="hs-icon">
+              <a href="#"
+                ><img src="./images/Fast&Friendly_Support.png" alt=""
+              /></a>
+            </div>
+            <h4><a href="#">Fast&Friendly Support</a></h4>
+            <a class="morehg" href="#"></a>
+          </div>
+          <div class="column3-hg highlight">
+            <div class="hs-icon">
+              <a href="#"
+                ><img src="./images/Highly_Experienced!.png" alt=""
+              /></a>
+            </div>
+            <h4><a href="#">Highly Experienced Specialized Teams</a></h4>
+            <a class="morehg" href="#"></a>
+          </div>
+          <div class="column3-hg">
+            <div class="hs-icon">
+              <a href="#"><img src="./images/Affordable_Price.png" alt="" /></a>
+            </div>
+            <h4><a href="#">Cost Effective Services</a></h4>
+            <a class="morehg" href="#"></a>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!-- .best-3-features-->
+      </div>
+      <!-- .container -->
+
+      <section id="aboutussection">
+        <div class="container">
+          <div class="about_contentcolumn">
+            <h2 class="section_title">
+              Reliable Services for Your Home and Office
+            </h2>
+            <p>
+              We provide top-notch installation, repair, and maintenance
+              services for a wide range of home and office appliances and
+              systems. Trust us to keep your environment running smoothly.
+            </p>
+
+            <div class="aboutliststyle">
+              <ul>
+                <li>Expert Installation Services</li>
+                <li>Comprehensive Repair Solutions</li>
+                <li>Quality Products and Accessories</li>
+                <li>Prompt and Reliable Service</li>
+                <li>Affordable Pricing</li>
+                <li>Highly Skilled Technicians</li>
+                <li>Energy-Efficient Lighting Solutions</li>
+                <li>Innovative Technology Integration</li>
+              </ul>
+            </div>
+
+            <div class="clear"></div>
+          </div>
+
+          <div class="about_right_imgbox">
+            <img src="images/welcome_homeimg.png" alt="" />
+
+            <div class="aboutphonebx">
+              <div class="phoneicon"><img src="images/phoneicon.png" /></div>
+              <span>Call Us</span>
+              <h2>123 456 7890</h2>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!-- .container -->
+      </section>
+      <!-- #aboutussection -->
+
+      <section id="pagearea">
+        <div class="container">
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-c2a0cd0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="c2a0cd0"
+            data-element_type="section"
+            data-settings='{"background_background":"classic"}'
+          >
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f5d771c"
+                data-id="f5d771c"
+                data-element_type="column"
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-d05321d elementor-widget elementor-widget-heading"
+                    data-id="d05321d"
+                    data-element_type="widget"
+                    data-widget_type="heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <style>
+                        /*! elementor - v3.14.0 - 26-06-2023 */
+                        .elementor-heading-title {
+                          padding: 0;
+                          margin: 0;
+                          line-height: 1;
+                        }
+                        .elementor-widget-heading
+                          .elementor-heading-title[class*="elementor-size-"]
+                          > a {
+                          color: inherit;
+                          font-size: inherit;
+                          line-height: inherit;
+                        }
+                        .elementor-widget-heading
+                          .elementor-heading-title.elementor-size-small {
+                          font-size: 15px;
+                        }
+                        .elementor-widget-heading
+                          .elementor-heading-title.elementor-size-medium {
+                          font-size: 19px;
+                        }
+                        .elementor-widget-heading
+                          .elementor-heading-title.elementor-size-large {
+                          font-size: 29px;
+                        }
+                        .elementor-widget-heading
+                          .elementor-heading-title.elementor-size-xl {
+                          font-size: 39px;
+                        }
+                        .elementor-widget-heading
+                          .elementor-heading-title.elementor-size-xxl {
+                          font-size: 59px;
+                        }
+                      </style>
+                      <h2
+                        class="elementor-heading-title elementor-size-default"
+                      >
+                        Our Services
+                      </h2>
+                    </div>
+                  </div>
+                  <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-a68a404 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="a68a404"
+                    data-element_type="section"
+                  >
+                    <div
+                      class="elementor-container elementor-column-gap-default"
+                    >
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-74c9638 el-os-4bx"
+                        data-id="74c9638"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-11719a5 top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="11719a5"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-widget-image-box
+                                  .elementor-image-box-content {
+                                  width: 100%;
+                                }
+                                @media (min-width: 768px) {
+                                  .elementor-widget-image-box.elementor-position-left
+                                    .elementor-image-box-wrapper,
+                                  .elementor-widget-image-box.elementor-position-right
+                                    .elementor-image-box-wrapper {
+                                    display: flex;
+                                  }
+                                  .elementor-widget-image-box.elementor-position-right
+                                    .elementor-image-box-wrapper {
+                                    text-align: right;
+                                    flex-direction: row-reverse;
+                                  }
+                                  .elementor-widget-image-box.elementor-position-left
+                                    .elementor-image-box-wrapper {
+                                    text-align: left;
+                                    flex-direction: row;
+                                  }
+                                  .elementor-widget-image-box.elementor-position-top
+                                    .elementor-image-box-img {
+                                    margin: auto;
+                                  }
+                                  .elementor-widget-image-box.elementor-vertical-align-top
+                                    .elementor-image-box-wrapper {
+                                    align-items: flex-start;
+                                  }
+                                  .elementor-widget-image-box.elementor-vertical-align-middle
+                                    .elementor-image-box-wrapper {
+                                    align-items: center;
+                                  }
+                                  .elementor-widget-image-box.elementor-vertical-align-bottom
+                                    .elementor-image-box-wrapper {
+                                    align-items: flex-end;
+                                  }
+                                }
+                                @media (max-width: 767px) {
+                                  .elementor-widget-image-box
+                                    .elementor-image-box-img {
+                                    margin-left: auto !important;
+                                    margin-right: auto !important;
+                                    margin-bottom: 15px;
+                                  }
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-img {
+                                  display: inline-block;
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-title
+                                  a {
+                                  color: inherit;
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-wrapper {
+                                  text-align: center;
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-description {
+                                  margin: 0;
+                                }
+                              </style>
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    fetchpriority="high"
+                                    decoding="async"
+                                    width="245"
+                                    height="246"
+                                    src="https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg"
+                                    class="attachment-full size-full wp-image-197"
+                                    alt=""
+                                    srcset="
+                                      https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg 245w,
+                                      https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg 100w,
+                                      https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg 150w
+                                    "
+                                    sizes="(max-width: 245px) 100vw, 245px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    Light Installation & House Wiring
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Professional light installation and
+                                    comprehensive house wiring services to
+                                    ensure your home is safely and efficiently
+                                    illuminated.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-f9b44a0 el-os-4bx"
+                        data-id="f9b44a0"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-67bdaca top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="67bdaca"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    decoding="async"
+                                    width="245"
+                                    height="246"
+                                    src="https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg"
+                                    class="attachment-full size-full wp-image-286"
+                                    alt=""
+                                    srcset="
+                                      https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg 245w,
+                                      https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg 100w,
+                                      https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg 150w
+                                    "
+                                    sizes="(max-width: 245px) 100vw, 245px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    Camera Installation & Repair
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Secure your property with our reliable
+                                    camera installation and repair services. We
+                                    offer the latest in surveillance technology.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0f9a516 el-os-4bx"
+                        data-id="0f9a516"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-b44a74c top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="b44a74c"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    decoding="async"
+                                    width="247"
+                                    height="246"
+                                    src="https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg"
+                                    class="attachment-full size-full wp-image-287"
+                                    alt=""
+                                    srcset="
+                                      https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg 247w,
+                                      https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg 100w,
+                                      https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg 150w
+                                    "
+                                    sizes="(max-width: 247px) 100vw, 247px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    AC Installation & Repair
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Keep cool with our expert AC installation
+                                    and repair services. We handle all brands
+                                    and models to provide you with optimal
+                                    comfort.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-f167dbf el-os-4bx"
+                        data-id="f167dbf"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-231a5ed top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="231a5ed"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="247"
+                                    height="246"
+                                    src="https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg"
+                                    class="attachment-full size-full wp-image-285"
+                                    alt=""
+                                    srcset="
+                                      https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg 247w,
+                                      https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg 100w,
+                                      https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg 150w
+                                    "
+                                    sizes="(max-width: 247px) 100vw, 247px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    Printer Service
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Efficient printer servicing, maintenance,
+                                    and repair to keep your office running
+                                    without a hitch. We support all major
+                                    printer brands.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-74c9638 el-os-4bx"
+                        data-id="74c9638"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-11719a5 top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="11719a5"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-widget-image-box
+                                  .elementor-image-box-content {
+                                  width: 100%;
+                                }
+                                @media (min-width: 768px) {
+                                  .elementor-widget-image-box.elementor-position-left
+                                    .elementor-image-box-wrapper,
+                                  .elementor-widget-image-box.elementor-position-right
+                                    .elementor-image-box-wrapper {
+                                    display: flex;
+                                  }
+                                  .elementor-widget-image-box.elementor-position-right
+                                    .elementor-image-box-wrapper {
+                                    text-align: right;
+                                    flex-direction: row-reverse;
+                                  }
+                                  .elementor-widget-image-box.elementor-position-left
+                                    .elementor-image-box-wrapper {
+                                    text-align: left;
+                                    flex-direction: row;
+                                  }
+                                  .elementor-widget-image-box.elementor-position-top
+                                    .elementor-image-box-img {
+                                    margin: auto;
+                                  }
+                                  .elementor-widget-image-box.elementor-vertical-align-top
+                                    .elementor-image-box-wrapper {
+                                    align-items: flex-start;
+                                  }
+                                  .elementor-widget-image-box.elementor-vertical-align-middle
+                                    .elementor-image-box-wrapper {
+                                    align-items: center;
+                                  }
+                                  .elementor-widget-image-box.elementor-vertical-align-bottom
+                                    .elementor-image-box-wrapper {
+                                    align-items: flex-end;
+                                  }
+                                }
+                                @media (max-width: 767px) {
+                                  .elementor-widget-image-box
+                                    .elementor-image-box-img {
+                                    margin-left: auto !important;
+                                    margin-right: auto !important;
+                                    margin-bottom: 15px;
+                                  }
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-img {
+                                  display: inline-block;
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-title
+                                  a {
+                                  color: inherit;
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-wrapper {
+                                  text-align: center;
+                                }
+                                .elementor-widget-image-box
+                                  .elementor-image-box-description {
+                                  margin: 0;
+                                }
+                              </style>
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    fetchpriority="high"
+                                    decoding="async"
+                                    width="245"
+                                    height="246"
+                                    src="https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg"
+                                    class="attachment-full size-full wp-image-197"
+                                    alt=""
+                                    srcset="
+                                      https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg 245w,
+                                      https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg 100w,
+                                      https://res.cloudinary.com/liaison-inc/image/upload/f_auto/q_auto,w_1200/v1676387802/content/homeguide/homeguide-electrician-installing-pendant-light-fixtures.jpg 150w
+                                    "
+                                    sizes="(max-width: 245px) 100vw, 245px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    Light Installation & House Wiring
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Professional light installation and
+                                    comprehensive house wiring services to
+                                    ensure your home is safely and efficiently
+                                    illuminated.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-f9b44a0 el-os-4bx"
+                        data-id="f9b44a0"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-67bdaca top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="67bdaca"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    decoding="async"
+                                    width="245"
+                                    height="246"
+                                    src="https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg"
+                                    class="attachment-full size-full wp-image-286"
+                                    alt=""
+                                    srcset="
+                                      https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg 245w,
+                                      https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg 100w,
+                                      https://static.homeguide.com/assets/images/content/homeguide-security-service-installing-residential-surveillance-camera.jpg 150w
+                                    "
+                                    sizes="(max-width: 245px) 100vw, 245px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    Camera Installation & Repair
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Secure your property with our reliable
+                                    camera installation and repair services. We
+                                    offer the latest in surveillance technology.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0f9a516 el-os-4bx"
+                        data-id="0f9a516"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-b44a74c top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="b44a74c"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    decoding="async"
+                                    width="247"
+                                    height="246"
+                                    src="https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg"
+                                    class="attachment-full size-full wp-image-287"
+                                    alt=""
+                                    srcset="
+                                      https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg 247w,
+                                      https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg 100w,
+                                      https://serviceninjas.in/wp-content/uploads/2020/03/unnamed.jpg 150w
+                                    "
+                                    sizes="(max-width: 247px) 100vw, 247px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    AC Installation & Repair
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Keep cool with our expert AC installation
+                                    and repair services. We handle all brands
+                                    and models to provide you with optimal
+                                    comfort.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-f167dbf el-os-4bx"
+                        data-id="f167dbf"
+                        data-element_type="column"
+                      >
+                        <div
+                          class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                            class="elementor-element elementor-element-231a5ed top-circle-bximg elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                            data-id="231a5ed"
+                            data-element_type="widget"
+                            data-widget_type="image-box.default"
+                          >
+                            <div class="elementor-widget-container-forcus">
+                              <div class="elementor-image-box-wrapper">
+                                <figure class="elementor-image-box-img">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="247"
+                                    height="246"
+                                    src="https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg"
+                                    class="attachment-full size-full wp-image-285"
+                                    alt=""
+                                    srcset="
+                                      https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg 247w,
+                                      https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg 100w,
+                                      https://secur-serv.com/wp-content/uploads/2023/03/HP_Printer_v1-660x440.jpg 150w
+                                    "
+                                    sizes="(max-width: 247px) 100vw, 247px"
+                                  />
+                                </figure>
+                                <div class="elementor-image-box-content">
+                                  <h4 class="elementor-image-box-title">
+                                    Printer Service
+                                  </h4>
+                                  <p class="elementor-image-box-description">
+                                    Efficient printer servicing, maintenance,
+                                    and repair to keep your office running
+                                    without a hitch. We support all major
+                                    printer brands.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- .area_row-->
+        </div>
+        <!-- .container -->
+      </section>
+      <!-- #pagearea - OUR SERVICES -->
+
+      <section id="products">
+        <div class="container my-5">
+          <h2 class="text-center section_title mb-4">Our Products</h2>
+          <p class="text-center subtitle mb-4">
+            Aenean lacinia bibendum nulla consectetur. Integer posuere ante
+            venenatis.
+          </p>
+
+          <div class="text-center mb-5">
+            <button
+              class="btn btn-outline-primary filter-btn mb-1"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="btn btn-outline-primary filter-btn mb-2"
+              data-filter="camera"
+            >
+              Camera
+            </button>
+            <button
+              class="btn btn-outline-primary filter-btn mb-2"
+              data-filter="wifi"
+            >
+              WiFi
+            </button>
+            <button
+              class="btn btn-outline-primary filter-btn mb-2"
+              data-filter="printer"
+            >
+              Printer
+            </button>
+            <button
+              class="btn btn-outline-primary filter-btn mb-2"
+              data-filter="lights"
+            >
+              Lights
+            </button>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 filter-item camera">
+              <div class="product-item">
+                <img
+                  src="https://media.istockphoto.com/id/637712598/photo/traffic-light-with-speed-cameras.jpg?s=612x612&w=0&k=20&c=x9Ym-ySzyfw_9vr-bltEHPzWekzLiPoymVsmSuUD20g="
+                  class="img-fluid"
+                  alt="Camera"
+                />
+                <div class="product-info">
+                  <h5>Camera</h5>
+                  <p>Category: Camera</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 filter-item wifi">
+              <div class="product-item">
+                <img
+                  src="https://media.istockphoto.com/id/637712598/photo/traffic-light-with-speed-cameras.jpg?s=612x612&w=0&k=20&c=x9Ym-ySzyfw_9vr-bltEHPzWekzLiPoymVsmSuUD20g="
+                  class="img-fluid"
+                  alt="WiFi"
+                />
+                <div class="product-info">
+                  <h5>WiFi Router</h5>
+                  <p>Category: WiFi</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 filter-item printer">
+              <div class="product-item">
+                <img
+                  src="https://media.istockphoto.com/id/637712598/photo/traffic-light-with-speed-cameras.jpg?s=612x612&w=0&k=20&c=x9Ym-ySzyfw_9vr-bltEHPzWekzLiPoymVsmSuUD20g="
+                  class="img-fluid"
+                  alt="Printer"
+                />
+                <div class="product-info">
+                  <h5>Printer</h5>
+                  <p>Category: Printer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 filter-item lights">
+              <div class="product-item">
+                <img
+                  src="https://media.istockphoto.com/id/637712598/photo/traffic-light-with-speed-cameras.jpg?s=612x612&w=0&k=20&c=x9Ym-ySzyfw_9vr-bltEHPzWekzLiPoymVsmSuUD20g="
+                  class="img-fluid"
+                  alt="Lights"
+                />
+                <div class="product-info">
+                  <h5>LED Light</h5>
+                  <p>Category: Lights</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 filter-item printer">
+              <div class="product-item">
+                <img
+                  src="https://media.istockphoto.com/id/637712598/photo/traffic-light-with-speed-cameras.jpg?s=612x612&w=0&k=20&c=x9Ym-ySzyfw_9vr-bltEHPzWekzLiPoymVsmSuUD20g="
+                  class="img-fluid"
+                  alt="Printer"
+                />
+                <div class="product-info">
+                  <h5>Printer Ink</h5>
+                  <p>Category: Printer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 filter-item camera">
+              <div class="product-item">
+                <img
+                  src="https://media.istockphoto.com/id/637712598/photo/traffic-light-with-speed-cameras.jpg?s=612x612&w=0&k=20&c=x9Ym-ySzyfw_9vr-bltEHPzWekzLiPoymVsmSuUD20g="
+                  class="img-fluid"
+                  alt="Camera"
+                />
+                <div class="product-info">
+                  <h5>Security Camera</h5>
+                  <p>Category: Camera</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OUR PRODUCTS -->
+
+      <section
+        style="background-color: #f9f9f9"
+        id="section6"
+        class="menu_page"
+      >
+        <div class="container-fluid">
+          <div class="process-circle-wrapper">
+            <h2 class="section_title" style="color: #141414">Our Process</h2>
+            <p></p>
+            <div class="process-circle">
+              <div class="processicon">
+                <img decoding="async" src="images/process-icon01.png" />
+              </div>
+              <h4>Your Need</h4>
+              <p>Search the service you need</p>
+            </div>
+            <div class="process-circle">
+              <div class="processicon">
+                <img decoding="async" src="images/process-icon02.png" />
+              </div>
+              <h4>Enquiry</h4>
+              <p>For enquiring make a call or email us</p>
+            </div>
+            <div class="process-circle">
+              <div class="processicon">
+                <img decoding="async" src="images/process-icon03.png" />
+              </div>
+              <h4>Confirm</h4>
+              <p>Get your quote and confirm us</p>
+            </div>
+            <div class="process-circle last">
+              <div class="processicon">
+                <img decoding="async" src="images/process-icon04.png" />
+              </div>
+              <h4>Stay Calm</h4>
+              <p>Feel free and relax yourself</p>
+            </div>
+            <div class="clear"></div>
+            <div
+              class="subtitle"
+              style="font-size: 26px; color: #092a49; text-align: center"
+            >
+              Want to know more? It is as easy.. Call Us on
+              <span>(00) 1234567890</span>
+            </div>
+            <p></p>
+          </div>
+          <!-- .end section class -->
+          <div class="clear"></div>
+        </div>
+        <!-- container -->
+      </section>
+
+      <section
+        style="background-color: #ffffff"
+        id="section9"
+        class="menu_page"
+      >
+        <div class="container">
+          <div class="">
+            <h2 class="section_title" style="color: #141414">
+              Industries We Serve
+            </h2>
+            <p></p>
+            <div
+              class="subtitle"
+              style="font-size: 17px; color: #494848; text-align: center"
+            >
+              antelaor eet, Kfficitur velit id, pellentesque dolor. Sed nerat
+              placerat inposue Mellentesque lacinia vulputate consequat. Ut nec
+              antelaor eet, efficitur
+            </div>
+            <div class="clientlogos">
+              <div class="ClientsProject">
+                <div class="project-thumb">
+                  <a href=""
+                    ><img
+                      decoding="async"
+                      src="images/carousel-img1.jpg"
+                      alt="Residential Building Security"
+                  /></a>
+                </div>
+                <div class="emptycontent">
+                  <a href=""><h5>Residential Building Security</h5></a>
+                </div>
+              </div>
+
+              <div class="ClientsProject">
+                <div class="project-thumb">
+                  <a href=""
+                    ><img
+                      decoding="async"
+                      src="images/carousel-img2.jpg"
+                      alt="Hospitals and Medical Facilities"
+                  /></a>
+                </div>
+                <div class="emptycontent">
+                  <a href=""><h5>Hospitals and Medical Facilities</h5></a>
+                </div>
+              </div>
+
+              <div class="ClientsProject">
+                <div class="project-thumb">
+                  <a href=""
+                    ><img
+                      decoding="async"
+                      src="images/carousel-img3.jpg"
+                      alt="Retails Stores &amp; Shopping Malls"
+                  /></a>
+                </div>
+                <div class="emptycontent">
+                  <a href=""><h5>Retails Stores &amp; Shopping Malls</h5></a>
+                </div>
+              </div>
+
+              <div class="ClientsProject">
+                <div class="project-thumb">
+                  <a href=""
+                    ><img
+                      decoding="async"
+                      src="images/carousel-img4.jpg"
+                      alt="Residential Building Security"
+                  /></a>
+                </div>
+                <div class="emptycontent">
+                  <a href=""><h5>Residential Building Security</h5></a>
+                </div>
+              </div>
+
+              <div class="ClientsProject">
+                <div class="project-thumb">
+                  <a href=""
+                    ><img
+                      decoding="async"
+                      src="images/carousel-img3.jpg"
+                      alt="Office &amp; Commercial Buildings"
+                  /></a>
+                </div>
+                <div class="emptycontent">
+                  <a href=""><h5>Office &amp; Commercial Buildings</h5></a>
+                </div>
+              </div>
+            </div>
+            <p></p>
+          </div>
+          <!-- .end section class -->
+          <div class="clear"></div>
+        </div>
+        <!-- container -->
+      </section>
+
+      <div id="footer-wrapper">
+        <div class="container footer">
+          <!-- =============================== Column Fourth - 4 =================================== -->
+
+          <div class="cols-4">
+            <div class="widget-column-1">
+              <h5 class="ftlogo">DDS</h5>
+              <p>
+                We provide top-notch installation, repair, and maintenance
+                services for a wide range of home and office appliances and
+                systems. Trust us to keep your environment running smoothly.
+              </p>
+            </div>
+
+            <div class="widget-column-2">
+              <h5>Footer Menu</h5>
+              <div class="menu-footer-menu-container-forcus">
+                <ul id="menu-footer-menu" class="menu">
+                  <li
+                    id="menu-item-1711"
+                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1711"
+                  >
+                    <a
+                      title="												"
+                      href="/#/home-guard/"
+                      aria-current="page"
+                      >Home</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1726"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1726"
+                  >
+                    <a
+                      title="												"
+                      href="#/home-guard/about-us/"
+                      >About Us</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1728"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1728"
+                  >
+                    <a href="#/home-guard/blog/"
+                      >Our Services</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1747"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1747"
+                  >
+                    <a href="#/home-guard/gallery/"
+                      >Our Products</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1727"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1727"
+                  >
+                    <a
+                      title="												"
+                      href="#/home-guard/contact/"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="widget-column-3">
+              <h5>Quick Links</h5>
+              <div class="menu-useful-links-container-forcus">
+                <ul id="menu-useful-links" class="menu">
+                  <li
+                    id="menu-item-1714"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1714"
+                  >
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li
+                    id="menu-item-1712"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712"
+                  >
+                    <a href="#">Terms&Condition</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="widget-column-4">
+              <img
+                src="https://storage.googleapis.com/media-newsinitiative/images/GO801_GNI_VerifyImages_Card2_Image3.original.jpg"
+                alt="map location"
+              />
+            </div>
+            <div class="clear"></div>
+          </div>
+          <!--end .cols-4-->
+
+          <div class="clear"></div>
+        </div>
+        <!--end .container-->
+
+        <div class="copyright-wrapper">
+          <div class="container">
+            <div class="BottomContactBX">
+              <div class="footcl-3">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="ctinfo">
+                  <span>Location</span>929 St. Mark Rd, NY 12345 USA
+                </div>
+              </div>
+
+              <div class="footcl-3">
+                <i class="far fa-envelope"></i>
+                <div class="ctinfo">
+                  <span>Mail Us</span>contact@yourdomain.com
+                </div>
+              </div>
+
+              <div class="footcl-3 last">
+                <i class="far fa-clock"></i>
+                <div class="ctinfo">
+                  <span>Office Hrs</span>9.00 am to 7.00 pm (Mon-Sat)
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <!--end .ftrcontact-area-->
+
+            <div class="copyright-txt">
+              © Copyright 2023 All Rights Reserved
+            </div>
+            <!-- <div class="design-by">
+              Design by
+              <a href="https://gracethemes.com" target="_blank">Grace Themes</a>
+            </div> -->
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div id="back-top">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+        <script type="text/javascript" src="js/index.js" id="swv-js"></script>
+        <script type="text/javascript" id="contact-form-7-js-extra">
+          /* <![CDATA[ */
+          var wpcf7 = {
+            api: {
+              root: "https:\/\/gracethemesdemo.com\/home-guard\/wp-json\/",
+              namespace: "contact-form-7\/v1",
+            },
+          };
+          /* ]]> */
+        </script>
+        <script
+          type="text/javascript"
+          src="js/index_1.js"
+          id="contact-form-7-js"
+        ></script>
+        <script type="text/javascript" id="home-guard-pro-js-extra">
+          /* <![CDATA[ */
+          var ScreenReaderText = {
+            expandMain: "Open the main menu",
+            collapseMain: "Close the main menu",
+            expandChild: "expand submenu",
+            collapseChild: "collapse submenu",
+          };
+          /* ]]> */
+        </script>
+        <script
+          type="text/javascript"
+          src="js/navigation.js"
+          id="home-guard-pro-js"
+        ></script>
+      </div>
+    </div>
+  </body>
+</html>
